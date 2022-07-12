@@ -7,7 +7,6 @@
 	* [enums](https://stackoverflow.com/questions/4709175/what-are-enums-and-why-are-they-useful)
 	* [generics](https://stackoverflow.com/questions/7815528/what-are-generics-in-java/7815579)
 
-// DONE
 ### Part 1.1 - Create `Person` Class
 * Create a `Person` class.
 	* The class should declare a `final` field named `id` of type `long`.
