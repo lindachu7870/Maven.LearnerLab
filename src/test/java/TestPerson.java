@@ -22,7 +22,17 @@ public class TestPerson {
 
     @Test
     public void testSetName() {
+        // Given
+        Person person = new Person(123, "Blank");
+        String expected = "Linda";
 
+        // When
+        person.setName("Linda");
+        String actual = person.getName();
+
+        // Then
+        Assert.assertEquals(expected, actual);
     }
-
 }
+
+
